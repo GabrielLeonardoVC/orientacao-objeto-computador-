@@ -1,5 +1,5 @@
 class Processador:
-    def __init__(self, modelo,velocidade_ghz):
+    def __init__(self,modelo,velocidade_ghz):
         self._modelo=modelo
         self._velocidade_ghz=velocidade_ghz
 
@@ -13,7 +13,7 @@ class Processador:
         return f"Processador:{self._modelo},Velocidade:{self._velocidade_ghz}GHz"
 
 class MemoriaRAM:
-    def __init__(self, capacidade_gb,tipo):
+    def __init__(self,capacidade_gb,tipo):
         self._capacidade_gb=capacidade_gb
         self._tipo=tipo
 
