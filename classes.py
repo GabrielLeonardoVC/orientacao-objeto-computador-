@@ -26,7 +26,6 @@ class MemoriaRAM:
     def __str__(self):
         return f"Memória RAM:{self._capacidade_gb}GB{self._tipo}"
 
-
 class Armazenamento:
     def __init__(self,tipo,capacidade_gb):
         self._tipo=tipo
